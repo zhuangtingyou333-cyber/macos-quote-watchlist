@@ -21,7 +21,7 @@ Swift/AppKit 原生 macOS 行情工具的个人项目源码展示，使用 Codex
 ```sh
 swiftc -typecheck -parse-as-library -swift-version 5 -framework Cocoa \
   Main.swift InstrumentSelection.swift WatchlistSettingsController.swift
-./build.sh
+sh build.sh
 open '.build/MU 行情.app'
 ```
 
