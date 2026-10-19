@@ -1,0 +1,23 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="900" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#162033"/>
+      <stop offset="1" stop-color="#07101E"/>
+    </linearGradient>
+    <linearGradient id="line" x1="160" y1="640" x2="890" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69D6FF"/>
+      <stop offset="1" stop-color="#3078FF"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="48" y="48" width="928" height="928" rx="205" fill="url(#bg)"/>
+  <rect x="48" y="48" width="928" height="928" rx="205" fill="none" stroke="#31415F" stroke-width="12"/>
+  <path d="M158 670 L298 586 L405 645 L545 482 L657 550 L842 322" fill="none" stroke="#14376A" stroke-width="52" stroke-linecap="round" stroke-linejoin="round" opacity=".75"/>
+  <path d="M158 670 L298 586 L405 645 L545 482 L657 550 L842 322" fill="none" stroke="url(#line)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <circle cx="842" cy="322" r="24" fill="#A9ECFF"/>
+  <text x="512" y="465" text-anchor="middle" fill="#F5FAFF" font-family="SF Pro Display, Helvetica Neue, Arial, sans-serif" font-size="282" font-weight="700" letter-spacing="-20">MU</text>
+  <text x="512" y="810" text-anchor="middle" fill="#99B4D8" font-family="SF Pro Display, Helvetica Neue, Arial, sans-serif" font-size="76" font-weight="600" letter-spacing="8">行情</text>
+</svg>
